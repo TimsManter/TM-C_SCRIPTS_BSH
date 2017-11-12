@@ -14,4 +14,4 @@
 
 Name | Description
 --- | ---
-[git-reclone](git-reclone.sh) | Recreate .git directory from remote repository
+[git-reclone](git-reclone) | Recreate .git directory from remote repository
