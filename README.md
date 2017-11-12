@@ -8,7 +8,7 @@
 * @Language: Bash
 * @Locale: en_US
 * @License: [MIT](LICENSE)
-* @Status: Beta | Active | Sample
+* @Status: Active | Sample
 
 ## List of scripts
 
