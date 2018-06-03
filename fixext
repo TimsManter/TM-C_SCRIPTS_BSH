@@ -1,7 +1,7 @@
 #!/bin/bash
 
 for f in *.{jpg,JPG,png,PNG,jpeg,JPEG}; do
-	type=$(file $f | grep -oP '\w+(?= image data)')
+	type=$(file "$f" | grep -oP '\w+(?= image data)')
 	case $type in
 		PNG) newExt=png;;
 		JPEG) newExt=jpg;;
