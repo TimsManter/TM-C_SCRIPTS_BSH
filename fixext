@@ -1,5 +1,6 @@
 #!/bin/bash
 
+shopt -s nullglob
 for f in *.{jpg,JPG,png,PNG,jpeg,JPEG}; do
 	type=$(file "$f" | grep -oP '\w+(?= image data)')
 	case $type in
