@@ -2,4 +2,15 @@
 
 export GTK_CSD=0
 export LD_PRELOAD=/usr/lib/libgtk3-nocsd.so.0
-/usr/bin/sway
+#export GDK_BACKEND=wayland
+export QT_QPA_PLATFORM=wayland-egl
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export CLUTTER_BACKEND=wayland
+export SDL_VIDEODRIVER=wayland
+
+export XKB_DEFAULT_LAYOUT=pl
+export XKB_DEFAULT_VARIANT=
+export XKB_DEFAULT_MODEL=
+export XKB_DEFAULT_OPTIONS=ctrl:nocaps
+
+/usr/bin/sway $@
